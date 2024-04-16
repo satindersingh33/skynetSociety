@@ -1,0 +1,40 @@
+.title-boxworker {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 5px;
+    background-color: #f9f9f9;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    background-color:#833cbb;
+
+
+  }
+  .titles-containerworker{
+    height: max-content;
+    width: 100%;
+    /* padding: 10px; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 76px;
+
+    gap: 25px;
+   
+  }
+  .icon {
+    font-size: 40px;
+    margin-right: 10px;
+    color:rgb(255 255 255)
+  }
+  .title {
+    font-size: 40px;
+    color:rgb(255 255 255);
+   font-weight: 800;
+
+
+  }

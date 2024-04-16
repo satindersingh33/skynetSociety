@@ -1,0 +1,16 @@
+/* BackButton.css */
+
+.back-button {
+    cursor: pointer;
+   /* padding-top: 2px; */
+   position: fixed;
+   top:15%;
+   left:11%;
+
+  }
+  
+  .back-icon {
+    color:#833cbb; 
+    font-size: 24px; 
+  }
+  

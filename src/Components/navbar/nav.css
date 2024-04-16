@@ -1,0 +1,132 @@
+.main-container{
+    display: flex;
+    width: 100%;
+}
+
+
+.company-name {
+font-size: 40px;
+color:#833cbb;
+font-weight: 800;
+padding-top: 2px;
+text-decoration: none;
+list-style: none;
+}
+  
+  .switch {
+    position: absolute;
+    display: inline-block;
+    margin: 0 5px;
+    right:7rem ;
+    top: 37px;
+    padding-right: 15px;
+
+  }
+  
+  .switch > span {
+    position: absolute;
+    top: 14px;
+    pointer-events: none;
+    font-family: 'Helvetica', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .06);
+    width: 50%;
+    text-align: center;
+  }
+  
+  input.check-toggle-round-flat:checked ~ .off {
+    color:#833cbb;
+    padding-top: 8px;
+  }
+  
+  input.check-toggle-round-flat:checked ~ .on {
+    color: #fff;
+    padding-top: 8px;
+  }
+  
+  .switch > span.on {
+    left: 0;
+    padding-left: 1px;
+    color:#833cbb;
+    font-size: larger;
+    padding-top: 8px;
+  }
+  
+  .switch > span.off {
+    right: 0;
+    padding-right: 24px;
+    padding-top: 8px;
+    font-size: larger;
+    color: #fff;
+  }
+  
+  .check-toggle {
+    position: absolute;
+    margin-left: -9999px;
+    visibility: hidden;
+  }
+  .check-toggle + label {
+    display: block;
+    position: relative;
+    /* cursor: pointer; */
+    outline: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  input.check-toggle-round-flat + label {
+    padding: 6px; /* Increase padding for larger hit area */
+    width: 120px; /* Increase width of the label */
+    height: 55px; /* Increase height of the label */
+    background-color:#833cbb;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+    border-radius: 60px;
+  }
+  input.check-toggle-round-flat + label:before, input.check-toggle-round-flat + label:after {
+    display: block;
+    position: absolute;
+    content: "";
+  }
+  
+  input.check-toggle-round-flat + label:before {
+    top: 4px; 
+    left: 4px; 
+    bottom: 4px; 
+    right: 4px; 
+    border-radius: 70px; 
+    background-color:#833cbb;
+    
+  }
+  input.check-toggle-round-flat + label:after {
+    top: 8px;
+    left: 14px;
+    right:5px;
+    bottom: 8px;
+    width: 58px;
+    height: 35px;
+    padding-top: 10px;
+    background-color: #fff;
+    -webkit-border-radius: 52px;
+    -moz-border-radius: 52px;
+    -ms-border-radius: 52px;
+    -o-border-radius: 52px;
+    border-radius: 40px;
+    -webkit-transition: margin 0.2s;
+    -moz-transition: margin 0.2s; 
+    -o-transition: margin 0.2s;
+    transition: margin 0.2s;
+  }
+  
+  /* input.check-toggle-round-flat:checked + label {
+  }
+   */
+  input.check-toggle-round-flat:checked + label:after {
+    margin-left: 44px;
+  }
